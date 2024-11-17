@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="924,10071" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="924,10269" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -117,7 +117,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="934,10006" sap2010:WorkflowViewState.IdRef="Sequence_13">
+  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="934,10204" sap2010:WorkflowViewState.IdRef="Sequence_13">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="jobTitle" />
       <Variable x:TypeArguments="x:String" Name="experienceLevel" />
@@ -203,7 +203,7 @@
       <ui:InputDialog OptionsString="{x:Null}" DisplayName="Input Dialog - JobType" sap:VirtualizedContainerService.HintSize="410,297" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Selectati tipul de contract:" Title="JobType">
         <ui:InputDialog.Options>
           <InArgument x:TypeArguments="s:String[]">
-            <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">new string[] { "Full-Time", "Part-Time", "Contract", "Temporary", "Internship" }</CSharpValue>
+            <CSharpValue x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">new string[] { "Full-time", "Part-time", "Contract", "Temporary", "Internship" }</CSharpValue>
           </InArgument>
         </ui:InputDialog.Options>
         <ui:InputDialog.Result>
@@ -237,24 +237,35 @@
         </If.Else>
       </If>
     </Sequence>
-    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="872,7534" sap2010:WorkflowViewState.IdRef="Sequence_12">
+    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="872,7732" sap2010:WorkflowViewState.IdRef="Sequence_12">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="810,7423" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="810,7621" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="776,7205" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="776,7403" sap2010:WorkflowViewState.IdRef="Sequence_15">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Maximise'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs" DesignTimeRectangle="1505, 2, 92, 78" DesignTimeScaleFactor="2" ElementType="Button" FullSelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Maximise' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Maximise' role='push button' automationid='' check:text='Maximise' /&gt;" Guid="cd40d2f4-b3ba-49b8-8adf-9dcc5ebd5410" InformativeScreenshot="5fc34f40de71213647f061bec6e5e76c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='(31) Jobs | LinkedIn - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="327, 102, 926, 48" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="364a393b-56e4-4753-a80e-44c7d8d42dcb" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
               <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search by title, skill,…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="714,219" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="143, 194, 243, 64" DesignTimeScaleFactor="2" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='jobs-search-box-keyword-id-ember262' tag='INPUT' type='text' class='jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-global-typeahead__input' aaname='                                Search by title, skill, or company                                                                                  ' /&gt;" Guid="511ce664-089a-4142-bdba-1c9d516d3869" InformativeScreenshot="f8cab57f22501ec4edfa04e6f3a10d23.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
@@ -316,7 +327,7 @@
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1573, 304, 177, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember1111' tag='BUTTON' type='button' class='artdeco-pill artdeco-pill--slate artdeco-pill--choice artdeco-pill--2 search-reusables__filter-pill-button&amp;#xA;       search-reusables__filter-pill-button search-reusables__all-filters-pill-button' aaname='              All filters          ' check:innerText='All filters' /&gt;" Guid="5fa3f336-4e79-4136-b86f-ad10781a392f" InformativeScreenshot="841d5956f4925646c6b33d60aaffaf29.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Filter jobs where you’d…'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Sort by filter Sort by …'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>
                     <uix:SearchedElement.Target>
@@ -328,7 +339,13 @@
                   </uix:SearchedElement>
                 </uix:NMouseScroll.SearchedElement>
                 <uix:NMouseScroll.Target>
-                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="983, 503, 1104, 947" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl id='ember1335' tag='DIV' type='' class='artdeco-modal__content ember-view display-flex relative mb4 flex-1 justify-center&amp;#xA;            ' aaname='                                ' check:innerText='Filter jobs where you’d be a top applicant&amp;#xA;Try Premium for RON0&amp;#xA;Premium Member&amp;#xA;Adrian and millions' /&gt;" Guid="42ca661f-7544-416c-b898-536fc9f393d9" InformativeScreenshot="c47e8b462832ad2ae3faaaa8c1e61651.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="633, 819, 974, 206" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl tag='FIELDSET' type='' class='' aaname='                                                                                                                                                                 ' check:innerText='Sort by filter&amp;#xA;Sort by&amp;#xA;&amp;#xA;Most recent&amp;#xA;Filter by Most recent&amp;#xA;&amp;#xA;Most relevant&amp;#xA;Filter by Most relevant' /&gt;" Guid="b9c46714-0212-4cc4-962f-895cc4103d50" InformativeScreenshot="8fd0d5e396dca1779b0c5c26acf60ed5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="633, 535, 974, 1257" ElementType="List" FuzzySelectorArgument="&lt;webctrl tag='UL' type='' class='list-style-none flex-1' aaname='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' /&gt;" Guid="49793f3a-2593-4c75-be32-33e331047a0c" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
                 </uix:NMouseScroll.Target>
               </uix:NMouseScroll>
               <If sap:VirtualizedContainerService.HintSize="714,1661" sap2010:WorkflowViewState.IdRef="If_4">
@@ -426,7 +443,7 @@
                   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_19" />
                 </If.Else>
               </If>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Filter jobs where you’d…'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Sort by'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>
                     <uix:SearchedElement.Target>
@@ -438,7 +455,13 @@
                   </uix:SearchedElement>
                 </uix:NMouseScroll.SearchedElement>
                 <uix:NMouseScroll.Target>
-                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="983, 503, 1104, 947" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl id='ember1335' tag='DIV' type='' class='artdeco-modal__content ember-view display-flex relative mb4 flex-1 justify-center&amp;#xA;            ' aaname='                                ' check:innerText='Filter jobs where you’d be a top applicant&amp;#xA;Try Premium for RON0&amp;#xA;Premium Member&amp;#xA;Adrian and millions' /&gt;" Guid="a8e3aee8-5e74-43fe-96fa-e03499d81993" InformativeScreenshot="ff15a991557613e19de60330dc8e0cf6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="2317, 832, 974, 206" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl tag='FIELDSET' type='' class='' aaname='                                                                                                                                                                 ' check:innerText='Sort by filter&amp;#xA;Sort by&amp;#xA;&amp;#xA;Most recent&amp;#xA;Filter by Most recent&amp;#xA;&amp;#xA;Most relevant&amp;#xA;Filter by Most relevant' /&gt;" Guid="16c4a6cf-dee1-4f65-a78b-10a5e3b7cb22" InformativeScreenshot="f492b762abd491c5f0354290e3db4494.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="2317, 832, 132, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='text-heading-large inline-block' aaname='                           Sort by                         ' check:innerText='Sort by' /&gt;" Guid="0cdb18c3-6518-4cf1-b0f3-766fd3b116e8" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
                 </uix:NMouseScroll.Target>
               </uix:NMouseScroll>
               <If sap:VirtualizedContainerService.HintSize="714,873" sap2010:WorkflowViewState.IdRef="If_7">
@@ -673,12 +696,12 @@
                   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_27" />
                 </If.Else>
               </If>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Show 1K+ result'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Show 276 results'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1726, 1532, 297, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember1869' tag='BUTTON' type='button' class='reusable-search-filters-buttons search-reusables__secondary-filters-show-results-button artdeco-button artdeco-button--2 artdeco-button--primary ember-view' aaname='      Show 1K+ result ' check:innerText='Show 1K+ result' /&gt;" Guid="763504fd-f31a-4c11-bffe-0fdb36dfa92e" InformativeScreenshot="b5cb90d8069788e8275a8a2068a833a8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="3001, 1921, 308, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember638' tag='BUTTON' type='button' class='reusable-search-filters-buttons search-reusables__secondary-filters-show-results-button artdeco-button artdeco-button--2 artdeco-button--primary ember-view' aaname='Show*' /&gt;" Guid="a9a2aee7-46a3-44a0-a1e9-4fd6faee0c44" ImageBase64="" InformativeScreenshot="1d3daf12aa42c948e71446b86630117a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                        <uix:Target DesignTimeRectangle="1758, 1544, 233, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember1869' tag='SPAN' type='' class='artdeco-button__text' aaname='     Show 1K+ result ' check:innerText='Show 1K+ result' /&gt;" Guid="d811966d-a1eb-4e82-a2c4-26583304eb5a" SearchSteps="FuzzySelector" />
+                        <uix:Target DesignTimeRectangle="3033, 1933, 244, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember638' tag='SPAN' type='' class='artdeco-button__text' aaname='     Show 276 results ' check:innerText='Show 276 results' /&gt;" Guid="01c25e88-fe97-4ea6-bc19-ebc8fa5aa44f" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
