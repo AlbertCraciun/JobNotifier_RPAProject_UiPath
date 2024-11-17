@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="884,6189" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="924,10071" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -113,7 +113,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="782,6124" sap2010:WorkflowViewState.IdRef="Sequence_13">
+  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="934,10006" sap2010:WorkflowViewState.IdRef="Sequence_13">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="jobTitle" />
       <Variable x:TypeArguments="x:String" Name="experienceLevel" />
@@ -126,7 +126,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="UserInputSequence" sap:VirtualizedContainerService.HintSize="720,2321" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence DisplayName="UserInputSequence" sap:VirtualizedContainerService.HintSize="872,2321" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -233,25 +233,25 @@
         </If.Else>
       </If>
     </Sequence>
-    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="720,3652" sap2010:WorkflowViewState.IdRef="Sequence_12">
+    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="872,7534" sap2010:WorkflowViewState.IdRef="Sequence_12">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="658,3484" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="810,7423" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="624,3266" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="776,7205" sap2010:WorkflowViewState.IdRef="Sequence_15">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search by title, skill,…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="562,219" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search by title, skill,…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="714,219" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="143, 194, 243, 64" DesignTimeScaleFactor="2" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='jobs-search-box-keyword-id-ember262' tag='INPUT' type='text' class='jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-global-typeahead__input' aaname='                                Search by title, skill, or company                                                                                  ' /&gt;" Guid="511ce664-089a-4142-bdba-1c9d516d3869" InformativeScreenshot="f8cab57f22501ec4edfa04e6f3a10d23.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -267,7 +267,7 @@
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
-              <If sap:VirtualizedContainerService.HintSize="562,490" sap2010:WorkflowViewState.IdRef="If_3">
+              <If sap:VirtualizedContainerService.HintSize="714,490" sap2010:WorkflowViewState.IdRef="If_3">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">isRemote.Equals("No")</CSharpValue>
@@ -302,17 +302,17 @@
                   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_17" />
                 </If.Else>
               </If>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="562,158" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="661, 194, 160, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='global-nav-search' tag='BUTTON' type='button' class='jobs-search-box__submit-button&amp;#xA;          artdeco-button artdeco-button--2 artdeco-button--secondary' aaname='         Search       ' check:innerText='Search' /&gt;" Guid="06608728-098d-41db-ae52-8182f01164b6" InformativeScreenshot="468dffb9d0b53888a881c29c2941314a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'All filters'" sap:VirtualizedContainerService.HintSize="562,158" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'All filters'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1573, 304, 177, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember1111' tag='BUTTON' type='button' class='artdeco-pill artdeco-pill--slate artdeco-pill--choice artdeco-pill--2 search-reusables__filter-pill-button&amp;#xA;       search-reusables__filter-pill-button search-reusables__all-filters-pill-button' aaname='              All filters          ' check:innerText='All filters' /&gt;" Guid="5fa3f336-4e79-4136-b86f-ad10781a392f" InformativeScreenshot="841d5956f4925646c6b33d60aaffaf29.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Filter jobs where you’d…'" sap:VirtualizedContainerService.HintSize="562,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Filter jobs where you’d…'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NMouseScroll.SearchedElement>
                   <uix:SearchedElement>
                     <uix:SearchedElement.Target>
@@ -327,33 +327,43 @@
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="983, 503, 1104, 947" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl id='ember1335' tag='DIV' type='' class='artdeco-modal__content ember-view display-flex relative mb4 flex-1 justify-center&amp;#xA;            ' aaname='                                ' check:innerText='Filter jobs where you’d be a top applicant&amp;#xA;Try Premium for RON0&amp;#xA;Premium Member&amp;#xA;Adrian and millions' /&gt;" Guid="42ca661f-7544-416c-b898-536fc9f393d9" InformativeScreenshot="c47e8b462832ad2ae3faaaa8c1e61651.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
                 </uix:NMouseScroll.Target>
               </uix:NMouseScroll>
-              <If sap:VirtualizedContainerService.HintSize="562,1669" sap2010:WorkflowViewState.IdRef="If_4">
+              <If sap:VirtualizedContainerService.HintSize="714,1661" sap2010:WorkflowViewState.IdRef="If_4">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">!String.IsNullOrEmpty(experienceLevel)</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <If.Then>
-                  <Sequence sap:VirtualizedContainerService.HintSize="528,1486" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                  <Sequence sap:VirtualizedContainerService.HintSize="528,1478" sap2010:WorkflowViewState.IdRef="Sequence_18">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If sap:VirtualizedContainerService.HintSize="486,1398" sap2010:WorkflowViewState.IdRef="If_5">
+                    <If sap:VirtualizedContainerService.HintSize="486,1390" sap2010:WorkflowViewState.IdRef="If_5">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">experienceLevel.Equals("Entry")</CSharpValue>
                         </InArgument>
                       </If.Condition>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,254" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_20">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" Version="V4" />
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 686, 191, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Entry level&amp;#xA;Filter by Entry level' /&gt;" Guid="a8ca9825-a693-48d2-8622-b2c4b85677af" InformativeScreenshot="98620212ee75770d336feb6c4345b694.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target DesignTimeRectangle="1598, 686, 127, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Entry level                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Entry level' /&gt;" Guid="71901bab-a908-4c0b-acdc-827c685202f1" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
                         </Sequence>
                       </If.Then>
                       <If.Else>
@@ -412,6 +422,264 @@
                   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_19" />
                 </If.Else>
               </If>
+              <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll 'Filter jobs where you’d…'" sap:VirtualizedContainerService.HintSize="714,259" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                <uix:NMouseScroll.SearchedElement>
+                  <uix:SearchedElement>
+                    <uix:SearchedElement.Target>
+                      <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 1254, 196, 50" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='text-heading-large inline-block' tag='H3' aaname='                           Easy Apply                         ' check:innerText='Easy Apply' /&gt;" Guid="57909a2b-c275-4554-9b08-5b4f07a7cd68" InformativeScreenshot="b706cae59d95b5c01feb3725c93bf044.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                    </uix:SearchedElement.Target>
+                    <uix:SearchedElement.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:SearchedElement.Timeout>
+                  </uix:SearchedElement>
+                </uix:NMouseScroll.SearchedElement>
+                <uix:NMouseScroll.Target>
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="983, 503, 1104, 947" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl id='ember1335' tag='DIV' type='' class='artdeco-modal__content ember-view display-flex relative mb4 flex-1 justify-center&amp;#xA;            ' aaname='                                ' check:innerText='Filter jobs where you’d be a top applicant&amp;#xA;Try Premium for RON0&amp;#xA;Premium Member&amp;#xA;Adrian and millions' /&gt;" Guid="a8e3aee8-5e74-43fe-96fa-e03499d81993" InformativeScreenshot="ff15a991557613e19de60330dc8e0cf6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NMouseScroll.Target>
+              </uix:NMouseScroll>
+              <If sap:VirtualizedContainerService.HintSize="714,873" sap2010:WorkflowViewState.IdRef="If_7">
+                <If.Condition>
+                  <InArgument x:TypeArguments="x:Boolean">
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">isRemote.Equals("No")</CSharpValue>
+                  </InArgument>
+                </If.Condition>
+                <If.Then>
+                  <Sequence sap:VirtualizedContainerService.HintSize="376,444" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 1148, 155, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='On-site&amp;#xA;Filter by On-site' /&gt;" Guid="708ea41a-ea39-4a4c-a648-0911bd79c58a" InformativeScreenshot="cbbf87edd48bd6bdd75bb2a647272445.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1095, 1148, 91, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   On-site                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='On-site' /&gt;" Guid="56ce36dd-f098-4bcd-9e78-c9b5c215efa3" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 1060, 147, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Hybrid&amp;#xA;Filter by Hybrid' /&gt;" Guid="9b761163-e7f4-4ad9-93c7-789d07e249a4" InformativeScreenshot="2d3fdf4e734c9928c876800e1c04ef48.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1598, 1060, 83, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Hybrid                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Hybrid' /&gt;" Guid="fea2f27f-1525-42dd-9f78-5995a74ff2de" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 1060, 159, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Remote&amp;#xA;Filter by Remote' /&gt;" Guid="649b8347-ae9c-4a62-a604-0bb7aeb6c541" InformativeScreenshot="ae3720757816692db8337b5fdbb1c343.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1095, 1060, 95, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Remote                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Remote' /&gt;" Guid="62e532f3-2af6-4fe2-af23-05f6fa25746f" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </If.Else>
+              </If>
+              <If sap:VirtualizedContainerService.HintSize="714,2497" sap2010:WorkflowViewState.IdRef="If_8">
+                <If.Condition>
+                  <InArgument x:TypeArguments="x:Boolean">
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">!String.IsNullOrEmpty(jobType)</CSharpValue>
+                  </InArgument>
+                </If.Condition>
+                <If.Then>
+                  <Sequence sap:VirtualizedContainerService.HintSize="680,2314" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If sap:VirtualizedContainerService.HintSize="638,2226" sap2010:WorkflowViewState.IdRef="If_9">
+                      <If.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">jobType.Equals("Temporary")</CSharpValue>
+                        </InArgument>
+                      </If.Condition>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 766, 195, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Temporary&amp;#xA;Filter by Temporary' /&gt;" Guid="f1c24422-6f25-4ada-af17-b92694361401" InformativeScreenshot="ac9132afa4bc32b1e541d01b95da36e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target DesignTimeRectangle="1598, 766, 131, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Temporary                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Temporary' /&gt;" Guid="f9d83198-3882-4be6-a4e8-8b7192f7b935" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="604,1797" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If sap:VirtualizedContainerService.HintSize="562,1709" sap2010:WorkflowViewState.IdRef="If_10">
+                            <If.Condition>
+                              <InArgument x:TypeArguments="x:Boolean">
+                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">jobType.Equals("Contract")</CSharpValue>
+                              </InArgument>
+                            </If.Condition>
+                            <If.Then>
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 766, 169, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Contract&amp;#xA;Filter by Contract' /&gt;" Guid="ec3d62c7-31c6-4304-b9fd-c2d1b41a39e8" InformativeScreenshot="f29679fa5596712bc00bd138a4f314d6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target DesignTimeRectangle="1095, 766, 105, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Contract                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Contract' /&gt;" Guid="744dcace-12fb-4547-977a-050f6dec7d23" SearchSteps="FuzzySelector" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence sap:VirtualizedContainerService.HintSize="528,1280" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <If sap:VirtualizedContainerService.HintSize="486,1192" sap2010:WorkflowViewState.IdRef="If_11">
+                                  <If.Condition>
+                                    <InArgument x:TypeArguments="x:Boolean">
+                                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">jobType.Equals("Part-time")</CSharpValue>
+                                    </InArgument>
+                                  </If.Condition>
+                                  <If.Then>
+                                    <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 678, 178, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Part-time&amp;#xA;Filter by Part-time' /&gt;" Guid="0bc37d7b-1c6e-417c-bfed-13e171b53c16" InformativeScreenshot="e15c1332e8398a07b9cd2d5acc121be9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                <uix:Target DesignTimeRectangle="1598, 678, 114, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Part-time                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Part-time' /&gt;" Guid="5380815a-8298-47c1-aa17-f72d4bed7d1b" SearchSteps="FuzzySelector" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence sap:VirtualizedContainerService.HintSize="452,763" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <If sap:VirtualizedContainerService.HintSize="410,675" sap2010:WorkflowViewState.IdRef="If_12">
+                                        <If.Condition>
+                                          <InArgument x:TypeArguments="x:Boolean">
+                                            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">jobType.Equals("Full-time")</CSharpValue>
+                                          </InArgument>
+                                        </If.Condition>
+                                        <If.Then>
+                                          <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 678, 173, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Full-time&amp;#xA;Filter by Full-time' /&gt;" Guid="f873304a-5217-4692-97be-d9e7c51eb51a" InformativeScreenshot="7c15740e4ec9e2be4aa8cafc61ea7ecc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                      <uix:Target DesignTimeRectangle="1095, 678, 109, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Full-time                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Full-time' /&gt;" Guid="c23a5faf-533c-420e-83a4-d3181f2db8e4" SearchSteps="FuzzySelector" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                          </Sequence>
+                                        </If.Then>
+                                        <If.Else>
+                                          <Sequence sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 854, 188, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Internship&amp;#xA;Filter by Internship' /&gt;" Guid="131cdad0-7c9c-421b-bf8b-216960a926ba" InformativeScreenshot="e33f4877c5c70437b021ddba6683afb9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                      <uix:Target DesignTimeRectangle="1095, 854, 124, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Internship                 ' type='' parentid='ember1335' tag='SPAN' class='t-14 t-black--light t-normal' check:innerText='Internship' /&gt;" Guid="4d90ac70-7fec-40de-a0dd-2b3a8d3e4a7f" SearchSteps="FuzzySelector" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                          </Sequence>
+                                        </If.Else>
+                                      </If>
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </If.Then>
+                <If.Else>
+                  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_27" />
+                </If.Else>
+              </If>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Show 1K+ result'" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1726, 1532, 297, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember1869' tag='BUTTON' type='button' class='reusable-search-filters-buttons search-reusables__secondary-filters-show-results-button artdeco-button artdeco-button--2 artdeco-button--primary ember-view' aaname='      Show 1K+ result ' check:innerText='Show 1K+ result' /&gt;" Guid="763504fd-f31a-4c11-bffe-0fdb36dfa92e" InformativeScreenshot="b5cb90d8069788e8275a8a2068a833a8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="1758, 1544, 233, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember1869' tag='SPAN' type='' class='artdeco-button__text' aaname='     Show 1K+ result ' check:innerText='Show 1K+ result' /&gt;" Guid="d811966d-a1eb-4e82-a2c4-26583304eb5a" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
