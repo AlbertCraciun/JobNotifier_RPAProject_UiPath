@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Filter jobs where you’d…",
+  "Type": "Element",
+  "Id": "IeOvye_EM0K97MXI3IZvuA",
+  "Reference": "LNeBMiTtn0uiX0tCaj4oGQ/IeOvye_EM0K97MXI3IZvuA",
+  "ParentRef": "LNeBMiTtn0uiX0tCaj4oGQ/o1sHeUnXI0yNFdxfIJEhgg",
+  "Created": "2024-11-17T12:23:34.7610217Z",
+  "Updated": "2024-11-17T12:23:34.7610217Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

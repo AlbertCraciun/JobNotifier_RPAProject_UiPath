@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sDMW8tX2BU6X7w4S_SryPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="983, 503, 1104, 947" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl id='ember1335' tag='DIV' type='' class='artdeco-modal__content ember-view display-flex relative mb4 flex-1 justify-center&amp;#xA;            ' aaname='                                ' check:innerText='Filter jobs where you’d be a top applicant&amp;#xA;Try Premium for RON0&amp;#xA;Premium Member&amp;#xA;Adrian and millions' /&gt;" Guid="c52c619b-6c86-4bea-b504-06b0468cf614" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3cdc53caadccde4c262b2094106b893f.png" xmlns="">0pDAs-kjd2k2u3TKw45UeHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScroll</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

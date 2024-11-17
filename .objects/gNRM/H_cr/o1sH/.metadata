@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome (31) Jobs  LinkedIn",
+  "Type": "Screen",
+  "Id": "o1sHeUnXI0yNFdxfIJEhgg",
+  "Reference": "LNeBMiTtn0uiX0tCaj4oGQ/o1sHeUnXI0yNFdxfIJEhgg",
+  "ParentRef": "LNeBMiTtn0uiX0tCaj4oGQ/H_cr0BsGtEmDu0VyGYkPEg",
+  "Created": "2024-11-17T12:23:32.9342919Z",
+  "Updated": "2024-11-17T12:23:32.9342919Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

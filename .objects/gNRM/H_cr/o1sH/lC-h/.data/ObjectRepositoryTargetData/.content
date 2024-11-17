@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pCoa9918a0WIKXd6Zt7buQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 719, 290, 50" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='text-heading-large inline-block' tag='H3' aaname='                           Experience level                         ' check:innerText='Experience level' /&gt;" Guid="eb301e41-d545-438c-8c70-e685e2183e26" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="066c9434ec309b7fe84bbbac2441691e.png" xmlns="">0NM-KdZp13kO9onQIzbG1tg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

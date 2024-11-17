@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Scroll 'Filter jobs where you’d…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "lC-hBWH9KUy75AAYczD2Cw",
+  "Reference": "LNeBMiTtn0uiX0tCaj4oGQ/lC-hBWH9KUy75AAYczD2Cw",
+  "ParentRef": "LNeBMiTtn0uiX0tCaj4oGQ/o1sHeUnXI0yNFdxfIJEhgg",
+  "Created": "2024-11-17T12:27:07.9817486Z",
+  "Updated": "2024-11-17T12:27:07.9817486Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
