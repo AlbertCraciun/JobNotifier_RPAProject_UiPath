@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="924,10977" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="924,11019" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -119,7 +119,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="934,10912" sap2010:WorkflowViewState.IdRef="Sequence_13">
+  <Sequence DisplayName="MainApp" sap:VirtualizedContainerService.HintSize="934,10954" sap2010:WorkflowViewState.IdRef="Sequence_13">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="jobTitle">
         <Variable.Default>
@@ -269,19 +269,19 @@
         </If.Else>
       </If>
     </Sequence>
-    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="872,7930" sap2010:WorkflowViewState.IdRef="Sequence_12">
+    <Sequence DisplayName="BowserSearchSequence" sap:VirtualizedContainerService.HintSize="872,7972" sap2010:WorkflowViewState.IdRef="Sequence_12">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="810,7819" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome (31) Jobs  LinkedIn" sap:VirtualizedContainerService.HintSize="810,7861" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="82162852-c79f-4d42-8042-d81712680b82" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="776,7601" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="776,7603" sap2010:WorkflowViewState.IdRef="Sequence_15">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -291,7 +291,7 @@
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs" DesignTimeRectangle="1505, 2, 92, 78" DesignTimeScaleFactor="2" ElementType="Button" FullSelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Maximise' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Maximise' role='push button' automationid='' check:text='Maximise' /&gt;" Guid="cd40d2f4-b3ba-49b8-8adf-9dcc5ebd5410" InformativeScreenshot="5fc34f40de71213647f061bec6e5e76c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='(31) Jobs | LinkedIn - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="327, 102, 926, 48" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='(31) Jobs | LinkedIn - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="364a393b-56e4-4753-a80e-44c7d8d42dcb" SearchSteps="Selector, FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -302,7 +302,7 @@
                 <uix:NTypeInto.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="143, 194, 243, 64" DesignTimeScaleFactor="2" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='jobs-search-box-keyword-id-ember262' tag='INPUT' type='text' class='jobs-search-box__text-input jobs-search-box__keyboard-text-input jobs-search-global-typeahead__input' aaname='                                Search by title, skill, or company                                                                                  ' /&gt;" Guid="511ce664-089a-4142-bdba-1c9d516d3869" InformativeScreenshot="f8cab57f22501ec4edfa04e6f3a10d23.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="143, 194, 56, 64" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='jobs-search-box__input-icon jobs-search-box__keywords-label' aaname='                                                            ' check:innerText='Search by title, skill, or company' /&gt;" Guid="d958f01a-6012-4721-80be-a62fefb410e0" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -329,10 +329,11 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'City, state, or zip code'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,219" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="402, 194, 243, 64" DesignTimeScaleFactor="2" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='jobs-search-box-location-id-ember262' tag='INPUT' type='text' class='jobs-search-box__text-input' aaname='                                City, state, or zip code                                                         ' /&gt;" Guid="9748da3a-dfb0-41d9-97e4-150bc78202d5" InformativeScreenshot="47529f7cecfa28b180fec24286b85c1c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1045, 207, 382, 64" DesignTimeScaleFactor="2" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='jobs-search-box-location-id-ember223' tag='INPUT' type='text' class='jobs-search-box__text-input jobs-search-box__text-input--with-clear' aaname='                                City, state, or zip code                                                         ' /&gt;" Guid="f4ce99a0-e829-4a2e-91b1-226b238cbaae" InformativeScreenshot="8715d3e520e1cb0933f7e71bf0868aaf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(24) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
                             <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                              <uix:Target DesignTimeRectangle="402, 194, 56, 64" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='location-typeahead-instance-ember262' tag='LABEL' type='' class='jobs-search-box__input-icon' aaname='                                              ' check:innerText='City, state, or zip code' /&gt;" Guid="14ade5f9-4ecd-4578-921c-d6a71223d93d" SearchSteps="FuzzySelector" />
+                              <uix:Target DesignTimeRectangle="1045, 207, 56, 64" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='location-typeahead-instance-ember223' tag='LABEL' type='' class='jobs-search-box__input-icon' aaname='                                              ' /&gt;" Guid="57073e68-3dc5-4928-bdd8-d0259f10513c" SearchSteps="FuzzySelector" />
+                              <uix:Target DesignTimeRectangle="564, 205, 68, 68" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='global-nav' tag='path' type='' class='' aaname='' /&gt;" Guid="c5315306-17dd-4c65-a213-914f8e871e46" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
@@ -373,7 +374,7 @@
                 <uix:NMouseScroll.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="633, 819, 974, 206" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl tag='FIELDSET' type='' class='' aaname='                                                                                                                                                                 ' check:innerText='Sort by filter&amp;#xA;Sort by&amp;#xA;&amp;#xA;Most recent&amp;#xA;Filter by Most recent&amp;#xA;&amp;#xA;Most relevant&amp;#xA;Filter by Most relevant' /&gt;" Guid="b9c46714-0212-4cc4-962f-895cc4103d50" InformativeScreenshot="8fd0d5e396dca1779b0c5c26acf60ed5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="633, 535, 974, 1257" ElementType="List" FuzzySelectorArgument="&lt;webctrl tag='UL' type='' class='list-style-none flex-1' aaname='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' /&gt;" Guid="49793f3a-2593-4c75-be32-33e331047a0c" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -410,7 +411,7 @@
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 686, 191, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Entry level&amp;#xA;Filter by Entry level' /&gt;" Guid="a8ca9825-a693-48d2-8622-b2c4b85677af" InformativeScreenshot="98620212ee75770d336feb6c4345b694.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target DesignTimeRectangle="1598, 686, 127, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Entry level                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Entry level' /&gt;" Guid="71901bab-a908-4c0b-acdc-827c685202f1" SearchSteps="FuzzySelector" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -489,7 +490,7 @@
                 <uix:NMouseScroll.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="2317, 832, 974, 206" DesignTimeScaleFactor="2" FuzzySelectorArgument="&lt;webctrl tag='FIELDSET' type='' class='' aaname='                                                                                                                                                                 ' check:innerText='Sort by filter&amp;#xA;Sort by&amp;#xA;&amp;#xA;Most recent&amp;#xA;Filter by Most recent&amp;#xA;&amp;#xA;Most relevant&amp;#xA;Filter by Most relevant' /&gt;" Guid="16c4a6cf-dee1-4f65-a78b-10a5e3b7cb22" InformativeScreenshot="f492b762abd491c5f0354290e3db4494.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="2317, 832, 132, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='text-heading-large inline-block' aaname='                           Sort by                         ' check:innerText='Sort by' /&gt;" Guid="0cdb18c3-6518-4cf1-b0f3-766fd3b116e8" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -513,7 +514,7 @@
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 1148, 155, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='On-site&amp;#xA;Filter by On-site' /&gt;" Guid="708ea41a-ea39-4a4c-a648-0911bd79c58a" InformativeScreenshot="cbbf87edd48bd6bdd75bb2a647272445.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="1095, 1148, 91, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   On-site                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='On-site' /&gt;" Guid="56ce36dd-f098-4bcd-9e78-c9b5c215efa3" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -524,7 +525,7 @@
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 1060, 147, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Hybrid&amp;#xA;Filter by Hybrid' /&gt;" Guid="9b761163-e7f4-4ad9-93c7-789d07e249a4" InformativeScreenshot="2d3fdf4e734c9928c876800e1c04ef48.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="1598, 1060, 83, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Hybrid                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Hybrid' /&gt;" Guid="fea2f27f-1525-42dd-9f78-5995a74ff2de" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -544,7 +545,7 @@
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 1060, 159, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Remote&amp;#xA;Filter by Remote' /&gt;" Guid="649b8347-ae9c-4a62-a604-0bb7aeb6c541" InformativeScreenshot="ae3720757816692db8337b5fdbb1c343.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target DesignTimeRectangle="1095, 1060, 95, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Remote                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Remote' /&gt;" Guid="62e532f3-2af6-4fe2-af23-05f6fa25746f" SearchSteps="FuzzySelector" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -584,7 +585,7 @@
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 766, 195, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Temporary&amp;#xA;Filter by Temporary' /&gt;" Guid="f1c24422-6f25-4ada-af17-b92694361401" InformativeScreenshot="ac9132afa4bc32b1e541d01b95da36e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target DesignTimeRectangle="1598, 766, 131, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Temporary                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Temporary' /&gt;" Guid="f9d83198-3882-4be6-a4e8-8b7192f7b935" SearchSteps="FuzzySelector" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -617,7 +618,7 @@
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 766, 169, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Contract&amp;#xA;Filter by Contract' /&gt;" Guid="ec3d62c7-31c6-4304-b9fd-c2d1b41a39e8" InformativeScreenshot="f29679fa5596712bc00bd138a4f314d6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
-                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                           <uix:Target DesignTimeRectangle="1095, 766, 105, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Contract                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Contract' /&gt;" Guid="744dcace-12fb-4547-977a-050f6dec7d23" SearchSteps="FuzzySelector" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
@@ -650,7 +651,7 @@
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1534, 678, 178, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Part-time&amp;#xA;Filter by Part-time' /&gt;" Guid="0bc37d7b-1c6e-417c-bfed-13e171b53c16" InformativeScreenshot="e15c1332e8398a07b9cd2d5acc121be9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                             <uix:TargetAnchorable.Anchors>
-                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                 <uix:Target DesignTimeRectangle="1598, 678, 114, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Part-time                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Part-time' /&gt;" Guid="5380815a-8298-47c1-aa17-f72d4bed7d1b" SearchSteps="FuzzySelector" />
                                               </scg:List>
                                             </uix:TargetAnchorable.Anchors>
@@ -683,7 +684,7 @@
                                               <uix:NClick.Target>
                                                 <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 678, 173, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Full-time&amp;#xA;Filter by Full-time' /&gt;" Guid="f873304a-5217-4692-97be-d9e7c51eb51a" InformativeScreenshot="7c15740e4ec9e2be4aa8cafc61ea7ecc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
-                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                       <uix:Target DesignTimeRectangle="1095, 678, 109, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Full-time                 ' parentid='ember1335' tag='SPAN' type='' class='t-14 t-black--light t-normal' check:innerText='Full-time' /&gt;" Guid="c23a5faf-533c-420e-83a4-d3181f2db8e4" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
@@ -703,7 +704,7 @@
                                               <uix:NClick.Target>
                                                 <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1031, 854, 188, 40" DesignTimeScaleFactor="2" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' tag='LABEL' class='search-reusables__value-label' aaname='                            ' check:innerText='Internship&amp;#xA;Filter by Internship' /&gt;" Guid="131cdad0-7c9c-421b-bf8b-216960a926ba" InformativeScreenshot="e33f4877c5c70437b021ddba6683afb9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                                   <uix:TargetAnchorable.Anchors>
-                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                                       <uix:Target DesignTimeRectangle="1095, 854, 124, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   Internship                 ' type='' parentid='ember1335' tag='SPAN' class='t-14 t-black--light t-normal' check:innerText='Internship' /&gt;" Guid="4d90ac70-7fec-40de-a0dd-2b3a8d3e4a7f" SearchSteps="FuzzySelector" />
                                                     </scg:List>
                                                   </uix:TargetAnchorable.Anchors>
@@ -732,31 +733,32 @@
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="2045, 1728, 292, 64" DesignTimeScaleFactor="2" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember638' tag='BUTTON' type='button' class='reusable-search-filters-buttons search-reusables__secondary-filters-show-results-button artdeco-button artdeco-button--2 artdeco-button--primary ember-view' aaname='*Show*' /&gt;" Guid="a9a2aee7-46a3-44a0-a1e9-4fd6faee0c44" ImageBase64="" InformativeScreenshot="405e4feb369b5855ace84e1ddabd319c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="2077, 1740, 228, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember638' tag='SPAN' type='' class='artdeco-button__text' aaname='*Show*' /&gt;" Guid="01c25e88-fe97-4ea6-bc19-ebc8fa5aa44f" ImageBase64="" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
               </uix:NClick>
-              <uix:NExtractData AppendResults="False" ContinueOnError="True" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='JobTitle' ReferenceName='Column0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='JobTitle Url' ReferenceName='Column2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Company' ReferenceName='Column1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column2' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='strong' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='JobTitle'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='JobTitle Url'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Company'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column2' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='strong' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="714,158" sap2010:WorkflowViewState.IdRef="NExtractData_1" InteractionMode="Simulate" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="82162852-c79f-4d42-8042-d81712680b82" Version="V4">
                 <uix:NExtractData.DataTable>
                   <InOutArgument x:TypeArguments="sd:DataTable">
                     <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">extractedJobs</CSharpReference>
                   </InOutArgument>
                 </uix:NExtractData.DataTable>
                 <uix:NExtractData.NextLink>
-                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1376, 1723, 60, 40" DesignTimeScaleFactor="2" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' type='' class='artdeco-button__text' aaname='     Next ' check:innerText='Next' /&gt;" Guid="194eba15-8c45-40f2-a15a-4971607c3c8e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1376, 1723, 60, 40" DesignTimeScaleFactor="2" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' type='' class='artdeco-button__text' aaname='     Next ' /&gt;" Guid="194eba15-8c45-40f2-a15a-4971607c3c8e" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                        <uix:Target DesignTimeRectangle="1360, 1711, 128, 64" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember1475' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ember1475' tag='BUTTON' type='button' class='artdeco-button artdeco-button--muted artdeco-button--icon-right artdeco-button--1 artdeco-button--tertiary ember-view jobs-search-pagination__button jobs-search-pagination__button--next' aaname='                           Next ' check:innerText='Next' /&gt;" Guid="7e78a300-f3ab-435c-a0fd-acb9b03b3fd2" SearchSteps="FuzzySelector" />
-                        <uix:Target DesignTimeRectangle="596, 1841, 876, 96" ElementType="List" FullSelectorArgument="&lt;webctrl parentid='ember218' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember218' tag='UL' type='' class='global-footer-compact__content global-footer-compact__links' aaname='                                                                                                                              ' /&gt;" Guid="66c32357-3c97-41fa-96ba-2d13b57a52cc" SearchSteps="FuzzySelector" />
+                        <uix:Target DesignTimeRectangle="2576, 1427, 60, 40" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ember961' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember961' tag='SPAN' type='' class='artdeco-button__text' aaname='     Next ' check:innerText='Next' /&gt;" Guid="5c825209-1927-4055-b8bf-5e08d801bee0" SearchSteps="FuzzySelector" />
+                        <uix:Target DesignTimeRectangle="557, 198, 82, 82" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='global-nav' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='global-nav' tag='svg' type='' class='mercado-match' aaname='            ' /&gt;" Guid="edca70a2-914f-48c3-9df0-eab1c80ec6f4" SearchSteps="FuzzySelector" />
+                        <uix:Target DesignTimeRectangle="820, 1969, 112, 28" FullSelectorArgument="&lt;webctrl parentid='compactfooter-copyright' tag='image' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='compactfooter-copyright' tag='image' type='' class='' aaname='' /&gt;" Guid="981bd4c3-ccea-4974-8538-af2c198f8bf8" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NExtractData.NextLink>
                 <uix:NExtractData.Target>
-                  <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/jobs/search/?currentJobId=4051574153&amp;f_E=2&amp;f_JT=F&amp;f_WT=3%2C1&amp;geoId=105773754&amp;keywords=Developer&amp;origin=JOB_SEARCH_PAGE_JOB_FILTER&amp;refresh=true&amp;sortBy=R" DesignTimeRectangle="548, 535, 972, 6688" DesignTimeScaleFactor="2" ElementType="List" FullSelectorArgument="&lt;webctrl parentid='main' tag='UL' /&gt;" Guid="ac0e282c-f552-4de5-93b1-ba47cc9596ea" InformativeScreenshot="0c639d86244fd3c2f18e394cf58c5d5a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/jobs/search/?currentJobId=4051574153&amp;f_E=2&amp;f_JT=F&amp;f_WT=3%2C1&amp;geoId=105773754&amp;keywords=Developer&amp;origin=JOB_SEARCH_PAGE_JOB_FILTER&amp;refresh=true&amp;sortBy=R" DesignTimeRectangle="548, -5434, 972, 6779" DesignTimeScaleFactor="2" ElementType="List" FullSelectorArgument="&lt;webctrl parentid='main' tag='UL' /&gt;" Guid="a7d0529a-8ca3-4784-83a9-f1699b1609c3" InformativeScreenshot="0c639d86244fd3c2f18e394cf58c5d5a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(24) Developer Jobs | LinkedIn' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                 </uix:NExtractData.Target>
               </uix:NExtractData>
             </Sequence>
