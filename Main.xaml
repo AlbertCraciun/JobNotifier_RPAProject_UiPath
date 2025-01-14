@@ -878,7 +878,7 @@
         </Assign.To>
         <Assign.Value>
           <InArgument x:TypeArguments="x:String">
-            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">"Iata job-urile gasite pe LinkedIn:" + Environment.NewLine + String.Join(Environment.NewLine + "- ", jobStringsList)</CSharpValue>
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_49">"Iata job-urile gasite pe LinkedIn:" + Environment.NewLine + Environment.NewLine + String.Join(Environment.NewLine + Environment.NewLine + " &gt; ", jobStringsList)</CSharpValue>
           </InArgument>
         </Assign.Value>
       </Assign>
