@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mnr12p7AbU6YqSoA6v8FRA" Reference="LNeBMiTtn0uiX0tCaj4oGQ/zbny3-MTP0qBv2wGBCjQnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.linkedin.com/jobs/search/?currentJobId=4117187178&amp;geoId=106670623&amp;keywords=c%23%20developer&amp;origin=JOB_SEARCH_PAGE_LOCATION_AUTOCOMPLETE&amp;refresh=true" ContentHash="MPbs0rEd4EWkumUZnIY1RQ" DesignTimeRectangle="548, -1465, 972, 6207" DesignTimeScaleFactor="2" ElementType="List" FullSelectorArgument="&lt;webctrl parentid='main' tag='UL' /&gt;" Guid="c77b18a9-d7c7-4592-a7a2-2aa53c467b8a" Reference="LNeBMiTtn0uiX0tCaj4oGQ/zbny3-MTP0qBv2wGBCjQnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(20) c# developer Jobs | LinkedIn' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bc00ddfdfd7cc782eff76358b2a97896.png" xmlns="">0TPQg7zQpD0C6za0oRZaNKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='JobTitle'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='JobTitle Url'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;true&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Company'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='Location'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="linkedin.com/jobs/search" DesignTimeRectangle="1376, 1723, 60, 40" DesignTimeScaleFactor="2" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember1475' tag='SPAN' type='' class='artdeco-button__text' aaname='     Next ' /&gt;" Guid="194eba15-8c45-40f2-a15a-4971607c3c8e" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(31) Developer Jobs | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="557, 198, 82, 82" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='global-nav' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='global-nav' tag='svg' type='' class='mercado-match' aaname='            ' /&gt;" Guid="edca70a2-914f-48c3-9df0-eab1c80ec6f4" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="820, 1969, 112, 28" FullSelectorArgument="&lt;webctrl parentid='compactfooter-copyright' tag='image' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='compactfooter-copyright' tag='image' type='' class='' aaname='' /&gt;" Guid="981bd4c3-ccea-4974-8538-af2c198f8bf8" SearchSteps="FuzzySelector" />
+          <Target DesignTimeRectangle="1454, 1729, 14, 28" FullSelectorArgument="&lt;webctrl parentid='ember424' tag='use' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='ember424' tag='use' type='' class='' aaname='' /&gt;" Guid="c55d5c0a-da4d-4925-b859-e85bc1a8efbc" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
